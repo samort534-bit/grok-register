@@ -1,0 +1,27 @@
+# 环境配置（包含私人信息）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 项目特定
+keys/
+cpa_auths/
+screenshots/
+solver.log
+*.log
+*.rar
+*.zip
+proxies.txt
+.ace-tool/
+.claude/
+.playwright-mcp/
