@@ -29,7 +29,7 @@
 
 ## 依赖
 
-- [freemail](https://github.com/user/freemail) - 临时邮箱服务（需自行部署）
+- [freemail](https://github.com/idinging/freemail) - 临时邮箱服务（需自行部署）
 - Turnstile Solver - 内置验证码解决方案
 
 ## 安装
