@@ -71,7 +71,8 @@ python api_solver.py --browser_type camoufox --thread 5 --debug
 新开一个终端，运行：
 
 ```bash
-python grok.py
+python grok.py           # 静默模式，只有关键日志
+python grok.py --debug   # 显示详细 debug 日志
 ```
 
 按提示输入：
@@ -101,5 +102,6 @@ Grok 注册机
 ## 注意事项
 
 - 需要自行部署 freemail 临时邮箱服务
+- 运行前请确认 freemail 邮箱能正常收件：`curl "https://你的域名/api/emails?mailbox=xxx@你的域名"` 返回非空即正常
 - 运行前必须先启动 Turnstile Solver
 - 仅供学习研究使用
