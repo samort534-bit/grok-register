@@ -1,3 +1,3 @@
 @echo off
-pip install -r requirements.txt >nul 2>&1
+python -c "import quart, camoufox, patchright" 2>nul || pip install -r requirements.txt
 python api_solver.py --browser_type camoufox --thread 5 --debug
