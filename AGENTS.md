@@ -59,4 +59,4 @@ Solver 额外参数：`--proxy`（读取 proxies.txt）、`--random`（随机 UA
 
 ## 依赖
 
-安装：`pip install -r requirements.txt`（curl_cffi, beautifulsoup4, python-dotenv, requests, DrissionPage>=4.1）。Solver 额外依赖 camoufox, patchright, quart, rich。
+安装：`pip install -r requirements.txt`（含 curl_cffi, camoufox, patchright, quart, rich 等全部依赖）。

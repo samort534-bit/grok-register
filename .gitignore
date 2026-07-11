@@ -18,7 +18,12 @@ keys/
 cpa_auths/
 screenshots/
 solver.log
+solver_stderr.log
+solver_stdout.log
 *.log
+*.tmp
+grok_reg-share-*/
+Typora_Hook_Log.txt
 *.rar
 *.zip
 proxies.txt

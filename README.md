@@ -38,6 +38,8 @@
 pip install -r requirements.txt
 ```
 
+> Windows 中文系统如果 Solver 启动报编码错误，先执行 `set PYTHONIOENCODING=utf-8`
+
 ## 配置
 
 复制 `.env.example` 为 `.env` 并填写配置：

@@ -3,3 +3,9 @@ beautifulsoup4
 python-dotenv
 requests
 DrissionPage>=4.1
+
+# Solver 依赖（Turnstile 验证码）
+camoufox
+patchright
+quart
+rich
